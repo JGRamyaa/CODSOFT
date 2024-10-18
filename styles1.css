@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; 
+}
+
+header {
+    background-color: #032B44; 
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about {
+    background-color: #87CEEB; 
+    padding: 2rem;
+    color: #ffffff; 
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#skills {
+    background-color: #ffffff; 
+    padding: 2rem;
+}
+
+#skills ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#projects {
+    background-color: #87CEEB; 
+    padding: 2rem;
+    color:  #032B44; 
+}
+
+.project-card {
+    background-color: #ffffff; 
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#resume {
+    background-color: #ffffff; 
+    padding: 2rem;
+    color: #032B44;
+}
+
+#contact {
+    background-color: #87CEEB; 
+    padding: 2rem;
+    color: #ffffff; 
+}
+
+footer {
+    background-color: #032B44; 
+    color: #ffffff; 
+    padding: 1rem;
+    text-align: center;
+    clear: both;
+}
+
